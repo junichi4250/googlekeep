@@ -1,0 +1,42 @@
+{
+  "name": "googlekeepclone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@reach/router": "^1.3.1",
+    "axios": "^0.21.1",
+    "axios-hooks": "^1.9.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
+    "http-proxy": "^1.18.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "snowpack": "^3.3.3",
+    "subscriptions-transport-ws": "^0.9.16",
+    "urql": "^1.9.0"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"No tests to run :(\" && exit 1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:3000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
